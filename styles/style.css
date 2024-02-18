@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF;
    
 }
 
 #topheader {
     background-color:#1f2235;
-    /* margin-bottom: 80px; */
     padding: 20px 80px;
     border: 2px;
+    position: fixed;
+    width: 100%;
 }
 
 #Navbar {
@@ -26,7 +27,6 @@
     align-items: center;
     text-align: justify;
     padding: 20px 40px;
-    
 }
 
 
@@ -51,7 +51,7 @@
 
 #Home {
     background-color: #24263B;
-    
+    padding: 80px;
    
 }
 
@@ -114,6 +114,11 @@
     font-size: 800;
 }
 
+.portfoliobtn:hover {
+    background-color: #FE4A57;
+    cursor: pointer;
+}
+
 #playbtn {
     background-color: #FF4A57;
     padding: 14px 48px;
@@ -123,5 +128,336 @@
     border: none;
     cursor: pointer;
     margin-left: 14px;
+}
+
+#Services {
+    background-color: #1F2235;
+    padding: 80px;
+    justify-items: center;
+
+}
+
+.topservicesec {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.firstservice {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #FE4A57;
+
+}
+
+.secondservice {
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.sectionparagraph {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 44px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #23263A;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    height: 90px;
+    width: 700px;
+
+
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#About {
+    background-color: #23263A;
+    padding: 80px;
+}
+
+.abouttop {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.abouthead {
+    font-size: 60px;
+}
+.aboutpara {
+    font-size: 18px;
+}
+
+#aboutdown {
+ display: flex;
+ margin-top: 50px;
+ justify-content: space-between;
+ 
+}
+
+.leftpart {
+    margin-left: 110px;
+}
+
+.leftparttop {
+    margin-right: 60px;
+    margin-left: 0px;
+}
+.abouthead2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.aboutpara2 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.aboutcontainer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.aboutrow2 {
+    margin-left: 80px;
+}
+
+.cardhead {
+    color: #FF4A57;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cardpara {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+#Skill {
+    background-color: #1F2235;
+    display: flex;
+    padding: 110px;
+    justify-content: center;
+    
+}
+
+.skillhead1 {
+    font-size: 18px;
+    font-weight: 350;
+    margin-bottom: 20px;
+    color: #FF4A57;
+}
+
+.skillhead2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.skillpara {
+    font-size: 18px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    margin-bottom: 35px;
+
+}
+.hirebtn {
+    border: solid #FF4A57;
+    border-radius: 30px;
+    background-color: #1F2235;
+    height: 55px;
+    width: 180px;
+    font-size: 16px;
+    
+}
+
+.hirebtn:hover {
+    background-color: #FF4A57;
+    cursor: pointer;
+}
+
+.skill {
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+
+.skillscale {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+hr {
+    border: solid #FF4A57;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+#Portfolio {
+    background-color: #23263A;
+    padding: 80px;
+    text-align: center;
+}
+
+.portfoliohead {
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.portfoliopara {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#Contact  {
+    background-color: #1F2235;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contacthead1   {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF4A57;
+    margin-bottom: 20px;
+}
+
+.contacthead2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.contactpara {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contactcontainer {
+    display: flex;
+    grid-template-rows: 300;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contactcard1 {
+    background-color: #23263A;
+    width: 300px;
+    padding: 30px;
+    margin-right: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.contactcard2 {
+    background-color: #23263A;
+    width: 300px;
+    padding: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.contactcard3 {
+    background-color: #23263A;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+.cardhead {
+    font-size: 14px;
+}
+.cardtext {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.my-form1 {
+    background-color: #24263B;
+    width: 480px;
+    border-radius: 8px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.my-form2 {
+    background-color: #24263B;
+    width: 480px;
+    border-radius: 8px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.my-form3 {
+    background-color: #24263B;
+    width: 1000px;
+    border-radius: 8px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.my-form4 {
+    background-color: #24263B;
+    width: 1000px;
+    border-radius: 8px;
+    height: 120px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.formrow {
+    display: flex;
+    justify-content: center;
+}
+
+.sendbtn  {
+    border: solid #FF4A57;
+    border-radius: 30px;
+    background-color: #FF4A57;
+    height: 55px;
+    width: 180px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button {
+    display: inline;
 }
 
